@@ -1,2 +1,2 @@
-# -UniGraphic-example
-Example of using UniGraphic lib. Colors, lines text, bitmap image 
+# UniGraphic-example
+Example of using UniGraphic lib https://github.com/vketch/UniGraphic. Colors, lines text, bitmap image 
