@@ -23,9 +23,12 @@
 
 using namespace std::chrono;
 
-DigitalOut selectSPI(D4, true); // Select SPI iterface on LCD
+//DigitalOut selectSPI(D62, true); // Select SPI iterface on LCD
 
-ILI9341V myLCD(SPI_DMA_, 10000000, D11, D12, D13, D10, D8, D7, "myLCD");
+//ILI9341V myLCD(SPI_DMA_, 10000000, D11, D12, D13, D10, D8, D7, "myLCD");
+//ILI9341V myLCD(SPI_DMA_, 10000000, D11, D12, D13, D62, D63, D64, "myLCD");
+ILI9341V myLCD(SPI_16, 10000000, D11, D12, D13, D62, D63, D64, "myLCD");
+//ILI9341V myLCD(SPI_16, 10000000, D22/*PB_5*/, D25/*PB_4*/, D23/*PB_3*/, D2, D63, D64, "myLCD");
 
 Timer t;
 
